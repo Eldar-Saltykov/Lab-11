@@ -6,8 +6,9 @@ include <stdio.h>
 int main() {
 	int A[K];
 	int temp;
-	int i, x;
-	float z, k1, k2, xx;
+	int i, x, k1 = 0, k = 0, k2 = 0;
+	float z = 0, xx = 0, x = 2, F;
+	double gg = 0;
 	setlocale(0, "rus");
 	puts("Задна функция у = 1.8x^2 - sin10x и интервал[0.2;2.2]\n");
 		    scanf("%d", &temp);
